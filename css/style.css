@@ -1,0 +1,123 @@
+body {
+  background-color: hsl(225, 100%, 94%);
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 14px;
+}
+
+
+h1 {
+  text-align: center;
+  font-weight: 700;
+}
+
+p {
+  text-align: center;
+  color: hsl(224, 23%, 55%);
+  margin: 30px;
+  line-height: 1.7;
+
+}
+
+.p-one {
+  margin-top: 0;
+}
+
+.p-choice {
+  color: inherit;
+}
+
+.pattern-img {
+  width: 85.4rem;
+  height: 17rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+
+}
+
+
+.container {
+  height: 34.5rem;
+  width: 22rem;
+  border-radius: 20px;
+  background-color: hsl(225, 100%, 98%);
+  position: relative;
+  top: 40px;
+  left: 37%;
+}
+
+
+
+.change {
+  position: relative;
+  left: 40px;
+  bottom: 10px;
+  color: hsl(245, 75%, 52%);
+}
+
+.cancel {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: hsl(224, 23%, 55%);
+}
+
+.choice {
+  display: inline-block;
+  margin-left: 10px;
+
+}
+
+.illustration-img {
+  width: 22rem;
+  border-radius: 20px 20px 0 0;
+}
+
+.order {
+  height: 5rem;
+  width: 17.5rem;
+  background-color: hsl(225, 100%, 95%);
+  border-radius: 8px;
+  margin: auto;
+  }
+
+
+.order p {
+  margin: 0;
+
+}
+
+.order img {
+  height: 35px;
+  padding-top: 20px;
+  padding-left: 16px;
+
+}
+
+
+.pay-div {
+  text-align: center;
+  margin: 30px 35px 20px 35px;
+  text-decoration: none;
+  height: 40px;
+  border-radius: 10px;
+  background-color: hsl(245, 75%, 52%);
+}
+
+.pay-div a {
+  color: hsl(225, 100%, 94%);
+  text-decoration: none;
+  position: relative;
+  top: 10px;
+}
+.year {
+  margin: 0;
+}
+
+@media (min-width: 600px;) {
+body {
+  width: 10vw;
+
+}
+}
